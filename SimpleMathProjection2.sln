@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30509.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMathProjection2", "SimpleMathProjection2\SimpleMathProjection2.csproj", "{0D82F5A0-D4BC-434D-8752-E135E9ECD067}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D82F5A0-D4BC-434D-8752-E135E9ECD067}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{0D82F5A0-D4BC-434D-8752-E135E9ECD067}.Debug|Any CPU.Build.0 = Debug|x64
+		{0D82F5A0-D4BC-434D-8752-E135E9ECD067}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D82F5A0-D4BC-434D-8752-E135E9ECD067}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C48E02C1-54FB-4D8B-B2B0-1E8F3C7A010F}
+	EndGlobalSection
+EndGlobal

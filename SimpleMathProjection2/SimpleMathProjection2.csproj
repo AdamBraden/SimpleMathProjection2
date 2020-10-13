@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows10.0.19041.0</TargetFramework>
+    <Platforms>x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="SimpleMathComponent">
+      <HintPath>SimpleMathComponent.winmd</HintPath>
+      <IsWinMDFile>true</IsWinMDFile>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Windows.CsWinRT" Version="0.8.0" />
+    <PackageReference Include="Win2D.uwp" Version="1.25.0" />
+    <PackageReference Include="Microsoft.Net.Compilers.Toolset" Version="3.8.0-4.20472.6" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CsWinRTIncludes>SimpleMathComponent</CsWinRTIncludes>
+  </PropertyGroup>
+
+
+</Project>
